@@ -96,7 +96,7 @@ jobs:
             $proc = $null
 
             # 115 минут
-            $end = (Get-Date).AddMinutes(40)
+            $end = (Get-Date).AddMinutes(55)
             $tick = 0
 
             try {
