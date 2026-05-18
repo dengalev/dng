@@ -147,7 +147,7 @@ jobs:
 
 workflows:
   version: 2
-  ci:
+
+  build-and-test:
     jobs:
-      - build:
-          serial-group: ci-chain
+      - build
